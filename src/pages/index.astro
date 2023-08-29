@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Title from '../components/Title.astro';
+import ListOfBooks from '../components/ListOfBooks.astro';
+export const prerender = true;
+
+---
+
+<Layout title="Books.">
+	<main class="m-auto max-w-4xl">
+		<Title/>
+		
+		<ListOfBooks />
+		</ul>
+	</main>
+</Layout>
